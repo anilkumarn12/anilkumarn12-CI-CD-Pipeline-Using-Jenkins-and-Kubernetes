@@ -22,7 +22,7 @@ pipeline {
 
         stage("Checkout from SCM"){
                 steps {
-                    git branch: 'main', credentialsId: 'github', url: 'https://github.com/pradeepyedam/register-app.git'
+                    git branch: 'main', credentialsId: 'github', url: 'https://github.com/anilkumarn12/anilkumarn12-CI-CD-Pipeline-Using-Jenkins-and-Kubernetes.git'
                 }
         }
 
